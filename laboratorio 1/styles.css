@@ -1,0 +1,91 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+    /* reset-css */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(244, 255, 233);
+}
+
+img {
+    width: 250px; 
+    border-radius: 25px;
+    margin: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img {
+    width: 50px; /*ancho de la imagen*/ 
+    margin: 5px; /*margen*/
+}
+
+.imagen-expandible {
+    transition: transform 0.3s ease;
+  }
+  
+  .imagen-expandible:hover {
+    transform: scale(1.2); /* Ajusta el factor de escala deseado */
+  }
+
+.parrafo {
+    background-color: rgb(9, 8, 49);
+    font-size: 25px;
+    border: 3px black dashed;
+    margin: 25px;
+}
+
+footer {
+    background-color: plum;
+    margin-top: 350px;
+}
+.footer-icon {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.tamanofuente {
+    font-size: 25px;
+    color: rgb(19, 9, 53);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.menu {
+    text-shadow: 0cap;
+    text-decoration: none;
+    color: rgb(105, 3, 3);
+    font-size: 18px;
+}
+
+.boton-menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2aa02a;
+    color: #061d08;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .boton-menu:hover {
+    background-color: #aaa;
+  }
+  
+  .boton-menu.activo {
+    background-color: #555;
+  }
+
+.fondo {
+    background-image: url(./assets/fondo3.jpg);
+    background-size: cover;
+}

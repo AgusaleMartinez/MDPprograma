@@ -1,0 +1,3 @@
+Crear un formulario web para inscribirse en nuestra carrera.
++ tiene que poseer algunos datos de la persona.
++ Nombre, apellido, pais, email y si trabaja o no.
